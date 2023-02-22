@@ -98,6 +98,7 @@ h4 {
     /* MUSIC CONTAINER */
 .music-container {
     margin-top: 7rem;
+    margin-bottom: 4rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
@@ -135,4 +136,34 @@ h4 {
 
 .artist h3 {
     margin: 1rem 0 0.5rem;
+}
+
+    /* Create for */
+.create-for {
+    margin-top: 3.5rem;
+}
+
+.create-for h2 {
+    margin-bottom: 1rem;
+}
+
+.create-for .cards-container {
+    margin-top: 2.5rem;
+}
+
+    /* Popolar */
+.popolar {
+    margin-top: 3.5rem;
+}
+
+.popolar h2 {
+    margin-bottom: 1rem;
+}
+
+.popolar .cards-container {
+    margin-top: 2.5rem;
+}
+
+.rounded-cover img {
+    width: 100%;
 }
