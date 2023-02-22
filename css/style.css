@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /* Color styles */
+:root {
+--main-nav-bg: #000000;
+--main-alnum-bg: #141922;
+--playbar-bg: #282828;
+--white-color: #FFFFFF;
+--grey-color: #7A7D81;
+--lime-hover: #ADFF2F;
+}
+
+    /* Utility */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
