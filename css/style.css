@@ -44,6 +44,10 @@ body {
     text-align: center;
 }
 
+img {
+    display: block;
+}
+
     /* General settings */
 #general {
     width: 100%;
@@ -146,7 +150,6 @@ h4 {
 
 .cover img {
     width: 100%;
-    display: block;
 }
 
 .artist h3 {
@@ -181,4 +184,57 @@ h4 {
 
 .rounded-cover img {
     width: 100%;
+}
+
+    /* MENU */
+.menu-container {
+    margin: 1.5rem 0 1rem 1rem;
+    max-width: 8.5rem;
+}
+
+    /* Navigate */
+.icon-img {
+    width: 1.7rem;
+    margin-right: 0.3rem;
+}
+
+h5 {
+    color: var(--grey-color);
+    align-items: center;
+    display: flex;
+}
+
+.navigate {
+    margin-top: 2rem;
+}
+
+.navigate .flex {
+    margin-top: 0.5rem;
+}
+
+    /* Playlist */
+.playlist {
+    margin-top: 1.5rem;
+}
+
+#playlist {
+    font-size: 0.9rem;
+}
+
+.fa-square-plus {
+    color: var(--grey-color);
+    font-size: 2.5rem;
+    margin-right: 0.3rem;
+}
+
+.select-playlist .flex h5 {
+    font-size: 0.9rem;
+}
+
+.select-playlist {
+    margin-top: 0.5rem;
+}
+
+.playlist-name {
+    margin-top: 1rem;
 }
