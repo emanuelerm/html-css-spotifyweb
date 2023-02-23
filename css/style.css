@@ -22,11 +22,6 @@ body {
     
 }
 
-/* .container {
-    max-width: 1199px;
-    margin: 0 auto;
-} */
-
 .wrapper {
     width: 100%;
     height: 100vh;
@@ -201,7 +196,7 @@ h4 {
 .menu-container {
     margin: 1.5rem 0 1rem 1rem;
     max-width: 8.5rem;
-    min-height: 30rem;
+    min-height: 29rem;
 }
 
     /* Navigate */
@@ -277,6 +272,7 @@ h5 {
 }
 
 .install-img h5 {
+    font-size: 0.7rem;
     align-self: center;
 }
 
@@ -291,4 +287,88 @@ h5 {
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
     border-bottom: 1px solid var(--playbar-bg);
+}
+
+    /* PLAYBAR */
+#playbar {
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.side-playbar {
+    width: 15rem;
+    align-items: center;
+}
+
+.side-play-img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.side-play-img img {
+    width: 100%;
+}
+
+#middle-playbar {
+    width: 40%;
+}
+
+.middle-top {
+    margin-bottom: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-bottom {
+    margin-top: 0.7rem;
+    justify-content: space-between;
+}
+
+.side-play-artist {
+    margin-left: 0.7rem;
+    margin-right: 2.3rem;
+}
+
+.side-play-artist p {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--grey-color);
+}
+
+h6 {
+    font-size: 0.83rem;
+    color: var(--white-color);
+}
+
+.side-icons {
+    color: var(--grey-color);
+}
+
+.time {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+.side-icons i {
+    margin: 0 0.3rem;
+}
+
+#play {
+    margin: 0 1rem;
+}
+
+#play i {
+    font-size: 1.8rem;
+    scale: 0.8;
+}
+
+.middle-icon {
+    margin: 0 0.5rem;
+}
+
+.middle-icon i {
+    color: var(--grey-color);
+    font-size: 1.3rem;
 }
